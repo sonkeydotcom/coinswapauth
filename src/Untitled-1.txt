@@ -1,0 +1,41 @@
+const Wallet = () => {
+  const Phrase = () => {
+    return (
+      <>
+        <div className="phrase">
+        <textarea> phrase</textarea>
+        </div>
+
+        
+      </>
+    );
+  }
+
+  const Keystore = () => {
+    return (
+      <>
+         <div className="keystore">
+         <textarea> </textarea>
+        <input type="password" placeholder="password" />
+        </div>
+        
+      </>
+    );
+  }
+
+  const Private = () => {
+    return (
+      <>
+        <div className="privatekey">
+        <textarea> </textarea>
+        </div>
+        
+      </>
+    );
+  }
+
+  const toggle = () =>{
+    if ( Phrase.style.color == 'red'){
+      
+    } 
+  }

@@ -1,0 +1,21 @@
+<div className="importWallet">
+        <h1> Import Wallet</h1>
+        <form>
+        <div>
+          <button onClick={()=>this.toggleMe('phrase')}> phrase </button>
+          <button onClick={()=>this.toggleMe('keystore')}> keystore </button>
+          <button onClick={()=>this.toggleMe('private')}> private </button>
+        </div>
+
+        {
+          this.state.tabType=== `phrase` && <div> phrase</div>
+        }
+        {
+          this.state.tabType=== `keystore` && <div> keystore</div>
+        }
+        {
+          this.state.tabType=== `private` && <div> private</div>
+        }
+
+        </form>
+      </div>

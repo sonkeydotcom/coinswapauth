@@ -1,0 +1,437 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  background: ;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;;
+}
+
+  {
+  display:none;
+}
+
+button:active {
+  background: red;
+}
+
+button:focus {
+  background: red;
+}
+
+
+
+.form {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.form > button {
+  border-radius: 999px;
+  background: none;
+  padding: 14px;
+  margin: 4px 12px;
+  
+  color:#4a5568;
+
+}
+
+
+#submit {
+  border-radius: 8px;
+  background: #2b6cb0;
+  padding: 14px;
+  width: 150px;
+  margin: 4px 12px;
+  border:1px solid #2b6cb0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
+
+
+.form > button:active {
+  background:#2b6cb0; 
+  color: #ffffff;
+
+
+}
+
+.form > button:focus {
+  background:#2b6cb0;
+  color: #ffffff;
+  border: 3px solid #a9cdf3;
+ 
+}
+
+
+
+input {
+  margin: 8px;
+
+}
+
+ #input {
+  width:70%;
+  height: 150px;
+  border: 2px solid #cfd4da;
+  border-radius: 8px;
+  outline: none;
+
+}
+
+#password {
+  width:70%;
+  height: 45px;
+  border: 2px solid #cfd4da;
+  border-radius: 8px;
+  outline: none;
+
+}
+
+nav {
+  background: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;left:0;right: 0;
+  z-index: 1;
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 1px;
+  align-items: center;
+  justify-content: ;
+  float: ;
+  box-sizing: 2px 3px 4px #ccc;
+
+}
+
+nav button {
+  display: none;
+}
+
+nav h1 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #385898;
+
+}
+
+span {
+  background: #ffffff;
+  color: ;
+  padding:15px 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgb(193, 195, 196);
+}
+
+.hamburger {
+  padding: 8px;
+  border: 1px solid rgba(51, 65, 85, 0.72);
+  text-align: center;
+  border-radius: 4px;
+  justify-content: ;
+  display: ;
+  float: right;
+  width: 50px;
+  color:#000000;
+  background: rgba(227, 232, 240, 0.72);
+
+}
+
+nav pmenuebar {
+  display: none;
+}
+
+nav > h1 {
+  text-transform: uppercase;
+}
+
+.slider {
+  background: url(cryptImage_r4lgi5.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+  background-attachment: fixed;
+ 
+}
+
+.slideFluid {
+  background-color: rgba(51, 65, 85, 0.72);
+  opacity: 1;
+  height: inherit;
+  color: #ffffff;
+  font-weight: bold;
+  
+}
+
+.slidetxt {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 100px 15px;
+  font-size: 24px;
+  margin: 50px 64px;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 28px 44px;
+  justify-content: center;
+
+}
+
+.subFooter {
+  background: #282c34;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: ;
+  gap: 1em;
+  padding: 65px 48px;
+}
+
+button {
+  padding: 11px;
+  border-radius: 8px;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid white ;
+  background: ;
+  margin: 2px 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color:#ffffff;
+}
+
+button.learnMore {
+  border:2px solid white ;
+  background: transparent;
+}
+button.learnMore:hover {
+  background: #ffffff;
+  color: #282c34;
+}
+
+button.resolve {
+  color: #ffffff;
+  background: #DD6B20;
+  border-color:#DD6B20;
+}
+
+button.resolve:hover {
+  background:#DD5B20;
+  border-color: #DD5B20;
+}
+
+.subFooter > div {
+  background: #e2e8f0;
+  margin: 10px;
+  padding: 34px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  width: ;
+  height: ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  transition: transform .2s;
+}
+
+.subFooter > div:hover {
+  transform: scale(1.03);
+}
+
+
+.flexContainer > div {
+  background: #e2e8f0;
+  margin: 10px;
+  padding: 50px 80px;
+  font-size: 18px;
+  width: ;
+  height: ;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 1px 4px 5px  #cfd4da;
+}
+
+.flexContainer button {
+  background: #385898;
+  border: 1px solid #385898;
+  width: 160px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.footer {
+  padding: 48px 64px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer li {
+  list-style-type: none;
+  display: inline;
+  margin: 20px 18px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: ;
+  font-style: ;
+  color: #b3b3b3;
+}
+
+.aladinBlue {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 5px auto;
+  padding: 20px;
+  width:;
+  justify-content: center;
+  align-items: center;
+}
+
+.aladinBlue > div {
+  
+  display: ;
+  justify-content: center;
+  align-items: center;
+  flex-direction: ;
+  width: ;
+  border: 1px solid #CBD5E0;
+  
+  
+}
+
+.palet {
+  background: #055697;
+  padding: 64px 48px;
+  color: white;
+  font-size: ;
+  font-weight: bold;
+}
+
+.vue {
+  text-align: center;
+}
+
+.vue.h1 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#link {
+  background: #CBD5E0;
+  border-radius: 4px;
+  opacity: 0.6;
+  box-shadow: 2px 3px 6px #CBD5E0;
+  padding: 8px;
+  margin:14px 12px;
+  transition: transform .2s;
+}
+
+#link:hover {
+  transform: scale(1.03);
+}
+
+
+img {
+  
+  width:280px;
+}
+
+
+.footer > div {
+  border:3px solid black;
+  display: grid;
+  padding: 30px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: arial;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .flexContainer > div {
+    width: 100%;
+  }
+
+  .subFooter {
+    display:grid ;
+    grid-template-columns: auto;
+  }
+
+
+  .slidetxt {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 100px 15px;
+    font-size: 19px;
+    margin: 30px 44px auto;
+  }
+
+
+  img {
+    width: 120px;
+  }
+}
+
+
